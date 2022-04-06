@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+   width: 100%;
+   margin: 0 auto;
+   overflow: hidden;
+}
+body{
+   background: #CFD8DC;
+}
+header {
+    width: 100%;
+    background: #607D8B;
+    height: 70px;
+    position: fixed; /*menu fijo*/
+    z-index: 10;
+}
+
+.ancho{
+    /*background: orange;*/
+    width: 80%;
+    height: 70px;
+    margin: auto;
+}
+.logo{
+    /*background: blue;*/
+    width: 30%;
+    height: 70px;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box; /* Forzar el ancho del contenedor */
+}
+.logo p a{
+   color: #fff;
+   font-size: 25px;
+   text-decoration: none;
+   font-weight: bold;
+   font-family: cursive;
+}
+ nav{
+    /*background: olive;*/
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right; /* alinear el texto a la derec. */
+    padding-top: 24px; /* bajar cotenido */
+    box-sizing: border-box;
+
+ }
+ nav ul li{
+    display: inline;
+ }
+ nav ul li a{
+    color: #fff;
+    font-size: 13px; 
+    text-decoration: none;
+    text-transform: uppercase; /* tranformara letras en mayus. */
+    padding-left: 8px;
+    font-weight: bold; /* letras en negrita */
+    /*letter-spacing: 1px;*/
+    font: menu;
+    font-family: cursive;
+
+ }
+
+/* para cambiar color letras */
+ nav ul li a:hover{ 
+    color: #444;
+ }
+
+
+ 
+
